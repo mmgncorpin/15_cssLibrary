@@ -1,0 +1,97 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+  /*Search or Sign up Button  */
+.btn{
+    border-color: teal;
+    background-color: white;
+    color: teal;
+    width: 125px;
+    border-width: 3px;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Circle Button */
+.add{
+    background-color: lightseagreen;
+    color: white;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Flexible Rows/Columns */
+.row{
+    width: 1000px auto;
+    display: flex;
+}
+
+.col{
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: teal;
+    color: whitesmoke;
+}
+
+/* NavBar */
+.nav{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    font-size: xx-large;
+    padding-left: 10px;
+}
+
+.nav-links{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    color: grey;
+    text-decoration: none;
+}
+
+.btn{
+    width: 85px;
+    background-color: teal;
+    color: white;
+    font-size: medium;
+    box-shadow: 3px 7px black;
+    padding: 5px;
+    margin: 5px;
+}
+
